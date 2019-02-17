@@ -1,0 +1,124 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .background{
+    width: 356px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+   border-radius:8px ;
+   border-color: white;
+  background: rgba(6,20,46,1);
+  background: -moz-linear-gradient(left, rgba(6,20,46,1) 0%, rgba(48,119,166,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(6,20,46,1)), color-stop(100%, rgba(48,119,166,1)));
+  background: -webkit-linear-gradient(left, rgba(6,20,46,1) 0%, rgba(48,119,166,1) 100%);
+  background: -o-linear-gradient(left, rgba(6,20,46,1) 0%, rgba(48,119,166,1) 100%);
+  background: -ms-linear-gradient(left, rgba(6,20,46,1) 0%, rgba(48,119,166,1) 100%);
+  background: linear-gradient(to right, rgba(6,20,46,1) 0%, rgba(48,119,166,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06142e', endColorstr='#3077a6', GradientType=1 );}
+  .card{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .card-top{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-name{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content:flex-end;
+  }
+  .card-number{
+    display: flex;
+      font-size: 27px;
+      justify-content: space-around;
+      color: white;
+      font-family: sans-serif;
+      background-color: #a0b1004d;
+  }
+  .card-holder{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+   
+    }
+    .card-detail{
+      display: flex;
+      flex-direction: row;
+      color: white;
+      justify-content: space-between;
+    }
+    .card-validation{
+      display: flex;
+      flex-direction: row;
+      font-size: 8px;
+      align-items: flex-end;
+    }
+  
+    .card-validation-date{
+      display: flex;
+      flex-direction: column;
+      color: white;
+      align-items: center;
+      font-size: 8px;
+  
+    }
+    .card-bottom{
+      display: flex;
+      flex-direction: row;
+    }
+  .card-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  
+    }
+    .card-information{
+      width: 300%;
+    }
+    .card-valid-thru{
+      display: flex;
+      flex-direction: row;
+      align-items:center;
+    }
+    .year-validation{
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .card-code{
+      font-weight: bold;
+  
+    }
