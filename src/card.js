@@ -12,11 +12,11 @@ class Card extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      company:'Company Name',
+      company:'*********',
       number: '**** **** **** ****',
-      code:'1234 ',
-      date:'',
-      name:'Achref',
+      code:'****',
+      date:'**/**',
+      name:'*******',
     };
   }
                         StateCompany =
